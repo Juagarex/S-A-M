@@ -1,21 +1,19 @@
 import logo from './utils/img/logo.svg'
 import './App.css';
-import Title from './components/Title.jsx';
-import Cuerpo from './components/Cuerpo';
-import Footer from './components/Footer';
-import Todo from './components/Todo';
 import GlobalStyles from './globalStyles.js';
-
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Home from "./pages/Home/Home.jsx"
+import Contact from "./pages/Contact/Contact.jsx"
 function App() {
   return (
     <div className="App">
+    <Router>
     <GlobalStyles/>
-    <Title/>
-    <Cuerpo/>
-    <Footer/>
-    <Todo/>
-
+    <Switch>
+    <Route path="/" exact component={Home} />
+    <Route path="/contact" exact component={Contact} />
+    </Switch>
+    </Router>
     </div>
   );
 }
