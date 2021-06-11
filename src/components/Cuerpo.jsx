@@ -4,7 +4,7 @@ import B1 from '../utils/img/B1.jpg'
 const Cuerpo = () => {
     return (
       <div className="Container_Cuerpo">
-	        <div className="ContainerText1">
+	        <div className="ContainerText">
 	            <h1>EL QUE COMPONE EL CUERPO </h1>
 	            <p>Lorem ipsum dolor sit, amet consectetur
 	             adipisicing elit. Temporibus commodi impedit 

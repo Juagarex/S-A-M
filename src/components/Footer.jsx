@@ -4,7 +4,7 @@ import B2 from '../utils/img/B2.jpg'
 const Footer = () => {
     return (
        <div className="Container_footer">
-	        <div className="ContainerText2">
+	        <div className="ContainerText">
 	            <h1>EL QUE COMPONE EL FOOTER</h1>
 	            <p>Lorem ipsum dolor sit, amet consectetur
 	             adipisicing elit. Temporibus commodi impedit 
