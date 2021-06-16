@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
  height: 33.4vh;
  justify-content: space-between;
 }
-.ContainerText 
+.ContainerText {
  display: flex;
  flex-direction: column;
  width: 50%;
@@ -31,9 +31,19 @@ const GlobalStyles = createGlobalStyle`
  justify-content: center; 
 } 
 .ContainerImg Img{
- width: 50%;
+ width: 100%;
  height: 100%;
-} 
+ object-fit: contain;
+}
+
+.ContainerImg1{
+ display: flex;
+ width: 50%;
+ margin-right: 10px;
+ height: 100%;
+ justify-content: center; 
+}
+
 
 
 // fuentes
@@ -42,7 +52,33 @@ const GlobalStyles = createGlobalStyle`
     src: local('Hind'), url(${PrimaryFont}) format('woff');
     font-style: normal;
 }
+
+//estilos para botones
+button{
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* responsive */
+
+@media only screen and (min-width:768px) and (max-width:900px){
+.ContainerImg1{
+    width: 90%;
+}
+}
 `;
 
+
+/*
+git remote add origin git@github.com:Juagarex/S-A-M.git
+git branch -M main
+git push -u origin main
+*/ 
 
 export default GlobalStyles
