@@ -28,3 +28,6 @@
   height: auto;
   object-fit: contain;
 }
+.Container_footer h1{
+  color: red;
+}
