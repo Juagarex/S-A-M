@@ -6,7 +6,7 @@ const Footer = () => {
        <div className="Container_footer">
 	        <div className="ContainerText">
 	            <h1>EL QUE COMPONE EL FOOTER</h1>
-	            <p>Lorem ipsum dolor sit, amet consectetur
+	            <p id="p-footer">Lorem ipsum dolor sit, amet consectetur
 	             adipisicing elit. Temporibus commodi impedit 
 	             officiis, aliquam vero necessitatibus. 
 	             Sunt quaerat cum expedita temporibus?</p>
