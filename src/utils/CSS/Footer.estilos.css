@@ -29,5 +29,9 @@
   object-fit: contain;
 }
 .Container_footer h1{
-  color: red;
+  color: green;
+  font-size: 52px;
+}
+#p-footer{
+  font-size: 18px;
 }
