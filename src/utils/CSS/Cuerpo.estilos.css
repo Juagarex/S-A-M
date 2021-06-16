@@ -4,14 +4,16 @@
  height: 33.4vh;
  justify-content: space-between;
   margin: 20px 5px;
+
 }
-.ContainerText1{
+.ContainerText{
  display: flex;
  flex-direction: column;
  width: 50%;
  margin: 10px;
  font-family: Impact;
  font-size: 20px;
+ color: red;
 }
 
 .ContainerImg1{
