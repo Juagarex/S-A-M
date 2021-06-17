@@ -58,6 +58,9 @@ button{
     border-radius: 20px;
     width: auto;
     height: 50px;
+    font-size: 25px;
+    font-family: 'Hind';
+    margin: 0 20px;
 }
 
 button a{
