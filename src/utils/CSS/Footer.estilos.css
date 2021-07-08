@@ -4,6 +4,7 @@
  height: 33.4vh;
  justify-content: space-between;
   margin: 20px 5px;
+  background-image: linear-gradient(to bottom, #2a0537, #4b2a57, #6e5079, #92789c, #b7a2c0);
 }
 .ContainerText2{
  display: flex;
@@ -29,7 +30,7 @@
   object-fit: contain;
 }
 .Container_footer h1{
-  color: green;
+  color: whitesmoke;
   font-size: 52px;
 }
 #p-footer{
