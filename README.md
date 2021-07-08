@@ -1,6 +1,6 @@
 # Bienvenido al proyecto de Kuepa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+como estan todas 
 
 ## Available Scripts
 
