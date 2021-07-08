@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Bienvenido al proyecto de Kuepa](README.md)
 
