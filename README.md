@@ -1,6 +1,6 @@
 # Bienvenido al proyecto de Kuepa
 
-como estan todas 
+como estan todas
 
 ## Available Scripts
 
